@@ -122,9 +122,70 @@ nav ul li a {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
+/* start populer section styles here */
+.main-container {
+    padding: 50px 120px;
+}
 
+.populer-first-title {
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+.populer-content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
+.populer-content {
+    border-radius: 8px;
+    padding: 18px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.populer-content img {
+    width: 100%;
+}
+
+.populer-title {
+    color: #18191F;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.star {
+    color: #5E6366;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.description {
+    color: #787885;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fa-star, .fa-star-half {
+    color: #FB8200;
+}
+
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+}
 
 
 
@@ -162,8 +223,8 @@ nav ul li a {
         font-size: 0.75rem;
     }
 
-    .sponsors-container{
-        padding: 0 1px 0 25px;
+    .sponsors-container {
+        padding: 0 1px 0 35px;
         display: grid;
         gap: 5px;
         grid-template-columns: repeat(4, 1fr);
@@ -171,12 +232,25 @@ nav ul li a {
         grid-template-rows: repeat(2, 40px);
 
     }
-    .sponsors-container img{
-        width: 60%;
+
+    .sponsors-container img {
+        width: 70%;
     }
 
-    .loog{
+    .loog {
         margin-left: 50px;
+    }
+    .main-container{
+        padding: 50px 20px;
+    }
+    .populer-content-container{
+        grid-template-columns: 1fr;
+    }
+    .price{
+        margin: 0px;
+    }
+    .populer-title{
+        margin: 8px 0;
     }
 
 
@@ -195,6 +269,32 @@ nav ul li a {
 
     .banner-content {
         text-align: center;
+    }
+
+    .sponsors-container {
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .main-container{
+        padding: 50px 20px;
+    }
+    .populer-content-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr) fr;
+    }
+    .last-content{
+        grid-column: span 2;
+        width: 50%;
+        margin: auto;
+    }
+
+    .price{
+        margin: 0px;
+    }
+    .populer-title{
+        margin: 8px 0;
     }
 
 }
