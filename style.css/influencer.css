@@ -9,7 +9,6 @@
 body {
     font-family: "Poppins", sans-serif;
     max-width: 1440px;
-    border: 1px solid red;
     margin: auto;
 }
 
@@ -119,7 +118,6 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 /* start populer section styles here */
@@ -176,7 +174,8 @@ nav ul li a {
     font-weight: 700;
 }
 
-.fa-star, .fa-star-half {
+.fa-star,
+.fa-star-half {
     color: #FB8200;
 }
 
@@ -185,6 +184,71 @@ nav ul li a {
     font-size: 1rem;
     font-weight: 700;
     text-align: right;
+}
+
+/* start featured section styles */
+.featured-container {
+    display: flex;
+    padding: 50px 120px;
+    gap: 100px;
+}
+
+.featured-image {}
+
+.featred-content {}
+
+.featured-title {
+    color: #0A0826;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.featured-description {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.featured-btn {
+    padding: 10px 24px;
+    background: #E02C6D;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* start footer section styles */
+
+footer{
+    background: #0A0826;
+    margin-top: 50px;
+}
+.footer-container {
+    padding: 50px 550px;
+    text-align: center;
+}
+
+.footer-conten {}
+
+.footer-title {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-p {
+    color: #D9DBE1;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-image {
+    color: #fff;
+    letter-spacing: 16px;
+    font-weight: normal;
+    font-size: 2.5rem;
 }
 
 
@@ -240,17 +304,44 @@ nav ul li a {
     .loog {
         margin-left: 50px;
     }
-    .main-container{
+
+    .main-container {
         padding: 50px 20px;
     }
-    .populer-content-container{
+
+    .populer-content-container {
         grid-template-columns: 1fr;
     }
-    .price{
+
+    .price {
         margin: 0px;
     }
-    .populer-title{
+
+    .populer-title {
         margin: 8px 0;
+    }
+
+    .featured-container {
+        flex-direction: column-reverse;
+        padding: 0px 30px;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .featred-content {
+        text-align: center;
+    }
+
+    .featured-image img {
+        width: 100%;
+    }
+
+    .footer-container{
+        padding: 50px 20px;
+    }
+    .footer-image{
+        font-size: 2rem;
+        letter-spacing: 5px;
     }
 
 
@@ -272,29 +363,52 @@ nav ul li a {
     }
 
     .sponsors-container {
+        width: 90%;
         padding: 20px;
         flex-wrap: wrap;
         gap: 20px;
     }
 
-    .main-container{
+    .main-container {
         padding: 50px 20px;
     }
-    .populer-content-container{
+
+    .populer-content-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr) fr;
     }
-    .last-content{
+
+    .last-content {
         grid-column: span 2;
         width: 50%;
         margin: auto;
     }
 
-    .price{
+    .price {
         margin: 0px;
     }
-    .populer-title{
+
+    .populer-title {
         margin: 8px 0;
     }
+
+    .featured-container {
+        flex-direction: column-reverse;
+        padding: 0px 30px;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .featred-content {
+        text-align: center;
+    }
+    .footer-container{
+        padding: 50px 20px;
+    }
+    .footer-image{
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
 
 }
