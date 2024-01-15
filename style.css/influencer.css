@@ -111,6 +111,22 @@ nav ul li a {
     padding: 20px 0;
 }
 
+/* statr sponsors section styles */
+.sponsors-container {
+    padding: 40px 120px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+
+
+
+
+
 
 
 /* start mobile device styles */
@@ -140,6 +156,27 @@ nav ul li a {
 
     .banner-title {
         font-size: 2rem;
+    }
+
+    .baneer-description {
+        font-size: 0.75rem;
+    }
+
+    .sponsors-container{
+        padding: 0 1px 0 25px;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(4, 1fr);
+        box-shadow: none;
+        grid-template-rows: repeat(2, 40px);
+
+    }
+    .sponsors-container img{
+        width: 60%;
+    }
+
+    .loog{
+        margin-left: 50px;
     }
 
 
